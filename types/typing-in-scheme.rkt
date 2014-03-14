@@ -1,0 +1,5 @@
+(define f (lambda (x) (if x 1 (+ 1 '()))))
+(f #t)
+(f 2)
+(f '())
+(f #f)

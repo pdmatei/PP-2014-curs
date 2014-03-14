@@ -1,0 +1,5 @@
+(define identityFunction (lambda(x) x))
+(define v (identityFunction identityFunction))
+(eq? v identityFunction)
+(define v 1)
+(eq? v identityFunction)
